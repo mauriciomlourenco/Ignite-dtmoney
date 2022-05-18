@@ -1,0 +1,885 @@
+Script started on 2022-05-15 21:00:47-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="143" LINES="9"]
+]0;tadt@tadt-G3-3500: ~/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney[01;32mtadt@tadt-G3-3500[00m:[01;34m~/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney[00m$ clear
+[H[2J[3J]0;tadt@tadt-G3-3500: ~/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney[01;32mtadt@tadt-G3-3500[00m:[01;34m~/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney[00m$ yarn start
+[2K[1G[1myarn run v1.22.19[22m
+[2K[1G[2m$ react-scripts start[22m
+(node:10048) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10048) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+[2J[3J[H[36mStarting the development server...[39m
+[36m[39m
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/Header/styles.ts[22m[39m
+[90mTS1208: [39m'styles.ts' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+src/components/Header/index.tsx
+  [1mLine 7:14:[22m  'Content' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+[1m[31mERROR[39m[22m in src/components/Header/index.tsx
+  [1mLine 7:14:[22m  'Content' is not defined  [31m[4mreact/jsx-no-undef[24m[39m
+
+Search for the [4m[31mkeywords[39m[24m to learn more about each error.
+
+webpack compiled with [1m[31m1 error[39m[22m
+[31m[1mERROR in src/components/Header/index.tsx:7:14[22m[39m
+[90mTS2304: [39mCannot find name 'Content'.
+  [0m [90m  5 |[39m     [36mreturn[39m ([0m
+  [0m [90m  6 |[39m         [33m<[39m[33mContainer[39m[33m>[39m[0m
+  [0m[31m[1m>[22m[39m[90m  7 |[39m             [33m<[39m[33mContent[39m[33m>[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  8 |[39m                 [33m<[39m[33mimg[39m src[33m=[39m{logoImg} alt[33m=[39m[32m"dt money"[39m [33m/[39m[33m>[39m[0m
+  [0m [90m  9 |[39m                 [33m<[39m[33mbutton[39m type[33m=[39m[32m"button"[39m[33m>[39m[0m
+  [0m [90m 10 |[39m                     [33mNova[39m transação[0m
+
+[31m[1mERROR in src/components/Header/index.tsx:12:15[22m[39m
+[90mTS2304: [39mCannot find name 'Content'.
+  [0m [90m 10 |[39m                     [33mNova[39m transação[0m
+  [0m [90m 11 |[39m                 [33m<[39m[33m/[39m[33mbutton[39m[33m>[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m             [33m<[39m[33m/[39m[33mContent[39m[33m>[39m                          [0m
+  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m         [33m<[39m[33m/[39m[33mContainer[39m[33m>[39m[0m
+  [0m [90m 14 |[39m     )[33m;[39m[0m
+  [0m [90m 15 |[39m }[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+Attempted import error: 'Content' is not exported from './styles' (imported as 'Content').
+[1m[31mERROR[39m[22m in [1m./src/components/Header/index.tsx[39m[22m [1m[32m9:35-42[39m[22m
+[1mexport 'Content' (imported as 'Content') was [1m[31mnot found[39m[22m[1m in './styles' (possible exports: [1m[32mContainer[39m[22m[1m)[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m
+[31m[1mERROR in src/components/Header/index.tsx:2:21[22m[39m
+[90mTS2305: [39mModule '"./styles"' has no exported member 'Content'.
+  [0m [90m 1 |[39m [36mimport[39m logoImg [36mfrom[39m [32m'../../assets/logo.svg'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mContainer[39m[33m,[39m [33mContent[39m } [36mfrom[39m [32m'./styles'[39m[33m;[39m[0m
+  [0m [90m   |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mfunction[39m [33mHeader[39m(){[0m
+  [0m [90m 5 |[39m     [36mreturn[39m ([0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/Dashboard/index.tsx[22m[39m
+[90mTS1208: [39m'index.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/Dashboard/index.tsx[22m[39m
+[90mTS1208: [39m'index.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[31m[1mERROR in src/components/Dashboard/styles.ts[22m[39m
+[90mTS1208: [39m'styles.ts' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/Summary/index.tsx[22m[39m
+[90mTS1208: [39m'index.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[31m[1mERROR in src/components/Summary/index.tsx[22m[39m
+[90mTS1208: [39m'index.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/Summary/index.tsx[22m[39m
+[90mTS1208: [39m'index.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[31m[1mERROR in src/components/Summary/styles.ts[22m[39m
+[90mTS1208: [39m'styles.ts' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/Summary/styles.ts[22m[39m
+[90mTS1208: [39m'styles.ts' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[31m[1mERROR in src/components/Summary/styles.ts[22m[39m
+[90mTS1208: [39m'styles.ts' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[31mFailed to compile.[39m
+[31m[39m
+SyntaxError: /home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/src/components/Summary/index.tsx: Identifier 'outcomeImg' has already been declared. (3:7)
+[0m [90m 1 |[39m [36mimport[39m incomeImg [36mfrom[39m [32m'../../assets/income.svg'[39m[33m;[39m[0m
+[0m [90m 2 |[39m [36mimport[39m outcomeImg [36mfrom[39m [32m'../../assets/outcome.svg'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m outcomeImg [36mfrom[39m [32m'../../assets/outcome.svg'[39m[33m;[39m[0m
+[0m [90m   |[39m        [31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m[0m
+[0m [90m 5 |[39m [36mimport[39m { [33mContainer[39m } [36mfrom[39m [32m"./styles"[39m[33m;[39m[0m
+[0m [90m 6 |[39m[0m
+[1m[33mWARNING[39m[22m in src/components/Summary/index.tsx
+  [1mLine 3:8:[22m  'outcomeImg' is already defined  [33m[4m@typescript-eslint/no-redeclare[24m[39m
+
+[1m[31mERROR[39m[22m in [1m./src/components/Summary/index.tsx[39m[22m
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/src/components/Summary/index.tsx: Identifier 'outcomeImg' has already been declared. (3:7)
+
+[0m [90m 1 |[39m [36mimport[39m incomeImg [36mfrom[39m [32m'../../assets/income.svg'[39m[33m;[39m[0m
+[0m [90m 2 |[39m [36mimport[39m outcomeImg [36mfrom[39m [32m'../../assets/outcome.svg'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m outcomeImg [36mfrom[39m [32m'../../assets/outcome.svg'[39m[33m;[39m[0m
+[0m [90m   |[39m        [31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m[0m
+[0m [90m 5 |[39m [36mimport[39m { [33mContainer[39m } [36mfrom[39m [32m"./styles"[39m[33m;[39m[0m
+[0m [90m 6 |[39m[0m
+    at instantiate (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:3335:19)
+    at TypeScriptScopeHandler.checkRedeclarationInScope (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:3519:19)
+    at TypeScriptScopeHandler.declareName (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:3485:12)
+    at TypeScriptScopeHandler.declareName (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:8127:11)
+    at Object.declareNameFromIdentifier (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:12058:16)
+    at Object.checkIdentifier (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:12053:12)
+    at Object.checkLVal (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:11979:12)
+    at Object.finishImportSpecifier (/home/tadt/Área de Trabalho/ignite-aulas/reactjs/02-dt-money/dtmoney/node_modules/@babel/parser/lib/index.js:16191:10)
+
+webpack compiled with [1m[31m1 error[39m[22m and [1m[33m1 warning[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/Summary/index.tsx:2:8[22m[39m
+[90mTS2300: [39mDuplicate identifier 'outcomeImg'.
+  [0m [90m 1 |[39m [36mimport[39m incomeImg [36mfrom[39m [32m'../../assets/income.svg'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m outcomeImg [36mfrom[39m [32m'../../assets/outcome.svg'[39m[33m;[39m[0m
+  [0m [90m   |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m outcomeImg [36mfrom[39m [32m'../../assets/outcome.svg'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mContainer[39m } [36mfrom[39m [32m"./styles"[39m[33m;[39m[0m
+
+[31m[1mERROR in src/components/Summary/index.tsx:3:8[22m[39m
+[90mTS2300: [39mDuplicate identifier 'outcomeImg'.
+  [0m [90m 1 |[39m [36mimport[39m incomeImg [36mfrom[39m [32m'../../assets/income.svg'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m outcomeImg [36mfrom[39m [32m'../../assets/outcome.svg'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m outcomeImg [36mfrom[39m [32m'../../assets/outcome.svg'[39m[33m;[39m[0m
+  [0m [90m   |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mContainer[39m } [36mfrom[39m [32m"./styles"[39m[33m;[39m[0m
+  [0m [90m 6 |[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[33mCompiled with warnings.[39m
+[33m[39m
+src/components/Summary/index.tsx
+  [1mLine 3:8:[22m  'totalImg' is defined but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+Search for the [4m[33mkeywords[39m[24m to learn more about each warning.
+To ignore, add [36m// eslint-disable-next-line[39m to the line before.
+
+[1m[33mWARNING[39m[22m in src/components/Summary/index.tsx
+  [1mLine 3:8:[22m  'totalImg' is defined but never used  [33m[4m@typescript-eslint/no-unused-vars[24m[39m
+
+webpack compiled with [1m[33m1 warning[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/TransactionsTable/index.tsx[22m[39m
+[90mTS1208: [39m'index.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/TransactionsTable/index.tsx[22m[39m
+[90mTS1208: [39m'index.tsx' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[31m[1mERROR in src/components/TransactionsTable/styles.ts[22m[39m
+[90mTS1208: [39m'styles.ts' cannot be compiled under '--isolatedModules' because it is considered a global script file. Add an import, export, or an empty 'export {}' statement to make it a module.
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/TransactionsTable/styles.ts:3:17[22m[39m
+[90mTS7010: [39m'Container', which lacks return-type annotation, implicitly has an 'any' return type.
+  [0m [90m 1 |[39m [36mimport[39m styled [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mexport[39m [36mfunction[39m [33mContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
+  [0m [90m   |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [32m`[39m[33m;[39m[0m
+
+[31m[1mERROR in src/components/TransactionsTable/styles.ts:3:27[22m[39m
+[90mTS1005: [39m'(' expected.
+  [0m [90m 1 |[39m [36mimport[39m styled [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mexport[39m [36mfunction[39m [33mContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
+  [0m [90m   |[39m                           [31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [32m`[39m[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[31m[1mERROR in src/components/TransactionsTable/index.tsx:5:10[22m[39m
+[90mTS2559: [39mType '{ children: never[]; }' has no properties in common with type 'IntrinsicAttributes'.
+  [0m [90m 3 |[39m [36mexport[39m [36mfunction[39m [33mTransactionsTable[39m(){[0m
+  [0m [90m 4 |[39m     [36mreturn[39m([0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m         [33m<[39m[33mContainer[39m[33m>[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m             [0m
+  [0m [90m 7 |[39m         [33m<[39m[33m/[39m[33mContainer[39m[33m>[39m[0m
+  [0m [90m 8 |[39m     )[33m;[39m[0m
+
+[31m[1mERROR in src/components/TransactionsTable/styles.ts:3:17[22m[39m
+[90mTS7010: [39m'Container', which lacks return-type annotation, implicitly has an 'any' return type.
+  [0m [90m 1 |[39m [36mimport[39m styled [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mexport[39m [36mfunction[39m [33mContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
+  [0m [90m   |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [32m`[39m[33m;[39m[0m
+
+[31m[1mERROR in src/components/TransactionsTable/styles.ts:3:27[22m[39m
+[90mTS1005: [39m'(' expected.
+  [0m [90m 1 |[39m [36mimport[39m styled [36mfrom[39m [32m"styled-components"[39m[33m;[39m[0m
+  [0m [90m 2 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mexport[39m [36mfunction[39m [33mContainer[39m [33m=[39m styled[33m.[39mdiv[32m`[39m[0m
+  [0m [90m   |[39m                           [31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [32m`[39m[33m;[39m[0m
+
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[33mFiles successfully emitted, waiting for typecheck results...[39m
+[36mIssues checking in progress...[39m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [1mLocal:[22m            http://localhost:[1m3000[22m
+  [1mOn Your Network:[22m  http://192.168.0.109:[1m3000[22m
+
+Note that the development build is not optimized.
+To create a production build, use [36myarn build[39m.
+
+webpack compiled [1m[32msuccessfully[39m[22m
+[32mNo issues found.[39m
+[2J[3J[HCompiling...
+[2J[3J[H[32mCompiled successfully![39m
+
+You can now view [1mdtmoney[22m in the browser.
+
+  [
